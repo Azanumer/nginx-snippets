@@ -11,6 +11,7 @@ Production-ready Nginx configuration snippets for WordPress & general hosting: s
 | `snippets/rate-limiting.conf` | Rate limits wp-login/xmlrpc to 5 req/min per IP, general cap 30 req/s — blunts brute force & scraping |
 | `snippets/ssl-best-practice.conf` | TLS 1.2+ only, strong ciphers, OCSP stapling, HSTS |
 | `snippets/static-caching-gzip.conf` | GZIP compression + 1-year immutable caching for static assets |
+| `snippets/06-brotli-compression.conf` | Brotli compression (15-25% smaller than gzip) + static .br serving, gzip fallback |
 
 ## Usage
 
