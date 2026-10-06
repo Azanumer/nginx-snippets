@@ -12,6 +12,7 @@ Production-ready Nginx configuration snippets for WordPress & general hosting: s
 | `snippets/ssl-best-practice.conf` | TLS 1.2+ only, strong ciphers, OCSP stapling, HSTS |
 | `snippets/static-caching-gzip.conf` | GZIP compression + 1-year immutable caching for static assets |
 | `snippets/06-brotli-compression.conf` | Brotli compression (15-25% smaller than gzip) + static .br serving, gzip fallback |
+| `snippets/07-bad-bots.conf` | User-Agent blocklist map (scrapers, AI crawlers, exploit scanners) returning 444 |
 
 ## Usage
 
